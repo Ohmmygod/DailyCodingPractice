@@ -1,4 +1,4 @@
-public class Day02_MaxMin {
+public class Day02_1_MaxMin {
     public static void main(String[] args) {
 
         int [] arr = new int [args.length];
