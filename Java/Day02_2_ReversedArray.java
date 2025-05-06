@@ -1,6 +1,6 @@
 import java.util.Arrays;
 /*Tuesday, 6th May 2025*/
-public class Day02_ReversedArray {
+public class Day02_2_ReversedArray {
     public static void main(String[] args) {
 
         if (args.length == 0) {
