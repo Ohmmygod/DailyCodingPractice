@@ -1,4 +1,4 @@
-public class Day02_CheckPrime {
+public class Day02_4_CheckPrime {
   /*2025-05-06 Tuesday, 6th May 2025*/
     public static void main(String[] args) {
 
