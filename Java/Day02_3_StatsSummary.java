@@ -1,4 +1,4 @@
-public class Day02_StatsSummary {
+public class Day02_3_StatsSummary {
     public static void main(String[] args) {
     
     /* Unfinished
