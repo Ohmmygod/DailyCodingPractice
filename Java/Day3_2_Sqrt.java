@@ -12,7 +12,7 @@ public class Day3_2_Sqrt {
 			mid = (low + high) / 2;
 			if (mid * mid == num)
 				return (mid);
-			else if (mid * mid <= num)
+			else if ((long) mid * mid <= num)
 				low = mid + 1;
 			else
 				high = mid - 1;
