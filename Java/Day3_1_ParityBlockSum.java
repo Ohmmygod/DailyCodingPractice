@@ -14,7 +14,7 @@ public class Day3_1_ParityBlockSum {
 					status = "คี่";
 				System.out.printf("กลุ่มที่ %d (%s): ", cnt, status);
 				System.out.printf("%d => ผลรวม: %d\n", nums[i], nums[i]);
-
+				return ;
 			}
 			if (nums[i] % 2 == 0)
 			{
@@ -34,7 +34,6 @@ public class Day3_1_ParityBlockSum {
 				else
 					System.out.printf("%d => ผลรวม: %d\n", nums[i], nums[i]);
 			}
-			i++;
 		}
 	}
 
