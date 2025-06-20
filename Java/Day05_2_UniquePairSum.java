@@ -12,10 +12,9 @@ public class Day05_2_UniquePairSum {
 			{
 				if (seen.contains(nums[i]) && seen.contains(nums[j]))
 					continue;
-				else
+				if (nums[i] + nums[j] == target)
 				{
-					if (nums[i] + nums[j] == target)
-						pair++;
+					pair++;
 					seen.add(nums[i]);
 					seen.add(nums[j]);
 				}
