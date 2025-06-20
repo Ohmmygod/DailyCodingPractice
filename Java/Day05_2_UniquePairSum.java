@@ -10,16 +10,23 @@ public class Day05_2_UniquePairSum {
 		{
 			for (int j = i + 1; j < nums.length; j++)
 			{
-				if (seen.contains(arr[i]) && seen.contains(arr[j))
+				if (seen.contains(nums[i]) && seen.contains(nums[j]))
 					continue;
 				else
 				{
-					if (arr[i] + arr[j] == target)
+					if (nums[i] + nums[j] == target)
 						pair++;
-					seen.add(arr[i]);
-					seen.add(arr[j]);
+					seen.add(nums[i]);
+					seen.add(nums[j]);
 				}
 			}
 		}
+		return (pair);
+	}
+	public static void main(String[] args) {
+		int [] arr = {1, 3, 2, 2, 4, 5};
+		int target = 6;
+		System.out.println(countUniquePairs(arr, target));
+		return ;
 	}
 }
