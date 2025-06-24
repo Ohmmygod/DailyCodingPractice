@@ -25,21 +25,21 @@ int	ft_strcmp(char *s1, char *s2)
 	while (s1[i] || s2[i])
 	{
 		if (s1[i] != s2[i])
-			return ((unsigned(s1[i])) - (unsigned(s2[i])));
+			return (s1[i] - s2[i]);
 		i++;
 	}
-	return (unsinged(s1[i]) - unsigned(s2[i]));
+	return (s1[i] - s2[i]);
 }
 
 #include <stdio.h>
 
-int	main(int argc)
+int	main(void)
 {
-	if (argc < 1)
-	{
-		ft_putchar('\n');
-		return (0);
-	}
+	//if (argc < 1)
+	//{
+	//	ft_putchar('\n');
+	//	return (0);
+	//}
 	char	*s1 = "hello";
 	char	*s2 = "hell";
 	char	*s3 = "hel";
