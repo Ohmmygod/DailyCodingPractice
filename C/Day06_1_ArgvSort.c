@@ -25,7 +25,7 @@ int	ft_strcmp(char *s1, char *s2)
 	while (s1[i] || s2[i])
 	{
 		if (s1[i] != s2[i])
-			return (unsigned(s1[i]) - unsigned(s2[i]));
+			return ((unsigned(s1[i])) - (unsigned(s2[i])));
 		i++;
 	}
 	return (unsinged(s1[i]) - unsigned(s2[i]));
@@ -33,7 +33,7 @@ int	ft_strcmp(char *s1, char *s2)
 
 #include <stdio.h>
 
-int	main(int argc, char **argv)
+int	main(int argc)
 {
 	if (argc < 1)
 	{
