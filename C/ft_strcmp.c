@@ -8,8 +8,8 @@ int	main(void)
 	
 	char *s3 = "hel";
 
-	printf("testcase1: %d\n", strcmp(s1, s2));
-	printf("testcase2: %d\n", strcmp(s1, s3));
+	printf("testcase1: %d\n", strcmp(s2, s1));
+	printf("testcase2: %d\n", strcmp(s3, s1));
 
 	return (0);
 }
