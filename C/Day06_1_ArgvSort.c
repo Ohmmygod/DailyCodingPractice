@@ -31,22 +31,39 @@ int	ft_strcmp(char *s1, char *s2)
 	return (s1[i] - s2[i]);
 }
 
-#include <stdio.h>
-
-int	main(void)
+void	ft_swap(char *s1, char *s2)
 {
-	//if (argc < 1)
-	//{
-	//	ft_putchar('\n');
-	//	return (0);
-	//}
-	char	*s1 = "hello";
-	char	*s2 = "hell";
-	char	*s3 = "hel";
-
-	printf("testcase1: %d\n", ft_strcmp(s2, s1));
-	printf("testcase2: %d\n", ft_strcmp(s3, s1));
-
-	return (0);
+	char	*tmp;
 	
+	tmp = s1;
+	s1 = s2;
+	s2 = tmp;
 }
+
+int	main(int argc, char **argv)
+{
+	if (argc < 1)
+	{
+		ft_putchar('\n');
+		return (0);
+	}
+
+	int	trial;
+	int	arg_idx;
+	int	i;
+
+	arg_idx = 1;
+	trial = argc - 1;
+	while (arg_idx < trial - 1)
+	{
+		i = arg_idx + 1;
+		while (i < trial - 1)
+		{
+		
+		}
+	}
+	return (0);
+
+}
+
+/*Wed, 25th June 2025 - 00:08 AM, only bubble sort is required */
